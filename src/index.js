@@ -8,3 +8,4 @@ addTitle('Testing Testing');
 
 const premUsers = getPremUsers(users);
 console.log( users, premUsers );
+console.log('test');
