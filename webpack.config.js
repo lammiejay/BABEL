@@ -13,5 +13,17 @@ module.exports = {
         },
         port: 3000,
         hot: "only"
+    },
+    module: {
+        rules: [{
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: {
+                loader: 'babel-loader',
+                options: {
+                    presets: ['@babel/preset-env']
+                }
+            }
+        }]
     }
 };
