@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "babel": "babel src/index.js -w -o dist/assets/bundle.js"
+    "babel": "babel src/index.js -w -o dist/assets/bundle.js",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
